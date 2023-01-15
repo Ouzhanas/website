@@ -12,14 +12,14 @@ body{
 }
 #page{
     border-style: double;
-    border-color: black;
-    width: 400px;
-    min-height: 600px;
+    border-color: rgb(198, 19, 19);
+    width: 750px;
+    height: 600px;
     margin: auto;
 }
 #banner{
     border-style: dashed;
-    width: 398px;
+    width:700px ;
     height: 100px;
     margin: auto;
     background-color: none;
@@ -60,7 +60,7 @@ body{
     left: 3px;
 }
 #mainmenu{
-    background-color: none;
+    
     border-width: 1px;
     width: 400px;
     height: 40px;
@@ -92,43 +92,50 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     font-weight:bold;
-    color:royalblue;
+    color:rgb(143, 76, 10);
 }
 #mainmenu ul a:hover{
-    color:azure;
+    color:rgb(12, 159, 196);
 }
 /* içerik ve yanmenu kodları */
 #icerik{
-    width: 300px;
+    border-color: blue;
+    border-style: double;
+    width:600px;
     height: 400px;
+    position: relative;
     float: left;
 }
 /*article bölümü*/
-#icerik{
+#icerik #paragraf{
    
-    width: 300px;
+    width: 600px;
     height: 400px;
+    
 }
 /*article baslik*/
 #icerik #paragraf .baslik{
     color: red;
     float: left;
     position: relative;
-    padding: 10px;
+    padding: 20px;
 
 }
 /*article paragraf*/
 #icerik #paragraf .metin{
     
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: snow;
+    color: rgb(21, 187, 170);
     font-size: large;
 }
 /*aside bölümü*/
 #yanmenu{
-    width: 92px;
-    height: 400px;
-    float: right;
+    width: 140px;
+    height: 300px;
+    position: relative;
+    float: left;
+    left: 50px;
+    top: -18px;
 }
 /*yan menu baslik*/
 #yanmenu #yankutu .kenarbaslik{
@@ -137,7 +144,9 @@ body{
 }
 /*yan menu paragraf*/
 #yanmenu #yankutu .yanmetin{
-    color: black;
+    color: rgb(112, 8, 141);
+    border-style: solid;
+    border-color: rgb(17, 186, 17);
     font-size: small;
     width: 90px;
     height: 400px;
@@ -148,11 +157,12 @@ body{
     width: 400px;
     height: 45px;
     border-width: 1px;
+    
     position: relative;
     float: left;
     border-style: solid ;
-    border-color: red;
-    right: 1px;
+    border-color: rgb(41, 17, 126);
+    left:200px;
 } 
 /*footer nav*/
 #altmenu #footernav ul li a{
